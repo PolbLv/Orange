@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1499615878932" stop="1499615897667" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : orangeHRMTestScenario</name>
+    <title>Default Suite : orangeHRMTestScenario</title>
+    <test-cases>
+        <test-case start="1499615879173" stop="1499615897464" status="passed">
+            <name>testAdminIsAbleToLoginAndCreateNewUser</name>
+            <steps>
+                <step start="1499615879235" stop="1499615887573" status="passed">
+                    <name>openLoginPage</name>
+                    <title>Open Home Page by URL: http://opensource.demo.orangehrmlive.com/</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1499615887575" stop="1499615889302" status="passed">
+                    <name>loginAS[User{role=ADMIN, employeeName='null', username='Admin', name='Admin', password='admin', status=ENABLED}]</name>
+                    <title>Login as &lt;User{role=ADMIN, employeeName='null', username='Admin', name='Admin', password='admin', status=ENABLED}&gt;</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1499615887576" stop="1499615887774" status="passed">
+                            <name>fillUsernameField[Admin]</name>
+                            <title>Fill Username field with value &lt;Admin&gt;</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1499615887775" stop="1499615887885" status="passed">
+                            <name>fillPasswordField[admin]</name>
+                            <title>Fill Password field with value &lt;admin&gt;</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1499615887889" stop="1499615889201" status="passed">
+                            <name>clickLoginButton</name>
+                            <title>Click Login Button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1499615889308" stop="1499615890485" status="passed">
+                    <name>getCurrentUrl</name>
+                    <title>Read current URL</title>
+                    <attachments>
+                        <attachment title="URL" source="a36ed0ea-9c3a-4873-8137-0f99611eeb90-attachment.txt" type="text/plain"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1499615890495" stop="1499615891713" status="passed">
+                    <name>goToUsersManagement</name>
+                    <title>Click Users in Admin Module</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1499615891715" stop="1499615891728" status="passed">
+                    <name>getCurrentUrl</name>
+                    <title>Read current URL</title>
+                    <attachments>
+                        <attachment title="URL" source="0992db72-244e-446e-b2f9-e3ad351f8c9d-attachment.txt" type="text/plain"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1499615891729" stop="1499615892240" status="passed">
+                    <name>clickAddButton</name>
+                    <title>Click Add User Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1499615892944" stop="1499615892948" status="passed">
+                    <name>getNameFaker</name>
+                    <title>getFieldName</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1499615892949" stop="1499615892950" status="passed">
+                    <name>getPasswordFaker</name>
+                    <title>getPassword</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1499615892951" stop="1499615895201" status="passed">
+                    <name>createNewUser[User{role=ESS, employeeName='dummy name', username='Jonas Beahan', name='Jonas Beahan', password='1ewaqw2m...]</name>
+                    <title>Create New User as &lt;User{role=ESS, employeeName='dummy name', username='Jonas Beahan', name='Jonas Beahan', password='1e...</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1499615892952" stop="1499615893086" status="passed">
+                            <name>chooseUserRole[ESS]</name>
+                            <title>Choose User Role option Admin</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1499615893087" stop="1499615893325" status="passed">
+                            <name>fillEmployeeNameFieldRandom</name>
+                            <title>Fill Employee Name with value &lt;{0}&gt;</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1499615893356" stop="1499615893484" status="passed">
+                            <name>fillUserNameField[Jonas Beahan]</name>
+                            <title>Fill New User Name with value &lt;Jonas Beahan&gt;</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1499615893484" stop="1499615893575" status="passed">
+                            <name>chooseNewUserStatus[Enabled]</name>
+                            <title>Choose Status</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1499615893576" stop="1499615893694" status="passed">
+                            <name>fillPasswordFileld[1ewaqw2myx]</name>
+                            <title>Fill New User Password with value &lt;1ewaqw2myx&gt;</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1499615893695" stop="1499615893812" status="passed">
+                            <name>fillConfirmPasswordField[1ewaqw2myx]</name>
+                            <title>Fill Confirm New User Password Field with value &lt;1ewaqw2myx&gt;</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1499615893814" stop="1499615895201" status="passed">
+                            <name>clickSaveButton</name>
+                            <title>Click Save Button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1499615895202" stop="1499615895398" status="passed">
+                    <name>checkNewUser[Jonas Beahan]</name>
+                    <title>Check if New User Created</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1499615895399" stop="1499615896190" status="passed">
+                    <name>logOut</name>
+                    <title>User LogOut</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1499615896192" stop="1499615896226" status="passed">
+                    <name>getCurrentUrl</name>
+                    <title>Read current URL</title>
+                    <attachments>
+                        <attachment title="URL" source="be5176f0-739d-4065-b103-c649123eaf71-attachment.txt" type="text/plain"/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start="1499615896227" stop="1499615897436" status="passed">
+                    <name>loginAS[User{role=ESS, employeeName='Jasmine Morgan', username='Jonas Beahan', name='Jonas Beahan', password='1ewaqw2myx...]</name>
+                    <title>Login as &lt;User{role=ESS, employeeName='Jasmine Morgan', username='Jonas Beahan', name='Jonas Beahan', password='1ewaqw2m...</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1499615896227" stop="1499615896440" status="passed">
+                            <name>fillUsernameField[Jonas Beahan]</name>
+                            <title>Fill Username field with value &lt;Jonas Beahan&gt;</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1499615896441" stop="1499615896549" status="passed">
+                            <name>fillPasswordField[1ewaqw2myx]</name>
+                            <title>Fill Password field with value &lt;1ewaqw2myx&gt;</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1499615896550" stop="1499615897421" status="passed">
+                            <name>clickLoginButton</name>
+                            <title>Click Login Button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1499615897437" stop="1499615897459" status="passed">
+                    <name>getCurrentUrl</name>
+                    <title>Read current URL</title>
+                    <attachments>
+                        <attachment title="URL" source="baa85cf4-ca52-47ee-bd65-8d70c20c8c70-attachment.txt" type="text/plain"/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="orangeHRMTestScenario"/>
+                <label name="testClass" value="com.orangehrm.test.LoginWithAdminAndCreateNewUserTest"/>
+                <label name="testMethod" value="testAdminIsAbleToLoginAndCreateNewUser"/>
+                <label name="host" value="LocalHost"/>
+                <label name="thread" value="37759@LocalHost.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

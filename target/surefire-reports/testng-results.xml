@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="22725" started-at="2017-07-09T15:37:07Z" finished-at="2017-07-09T15:37:30Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="22725" started-at="2017-07-09T15:37:07Z" finished-at="2017-07-09T15:37:30Z">
+      <class name="com.orangehrm.test.LoginWithAdminAndCreateNewUserTest">
+        <test-method status="PASS" signature="testAdminIsAbleToLogin()[pri:0, instance:com.orangehrm.test.LoginWithAdminAndCreateNewUserTest@6b00ad9]" name="testAdminIsAbleToLogin" duration-ms="11482" started-at="2017-07-09T18:37:19Z" finished-at="2017-07-09T18:37:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdminIsAbleToLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrm.test.LoginWithAdminAndCreateNewUserTest@6b00ad9]" name="tearDown" is-config="true" duration-ms="84" started-at="2017-07-09T18:37:30Z" finished-at="2017-07-09T18:37:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrm.test.LoginWithAdminAndCreateNewUserTest -->
+      <class name="com.orangehrm.test.EmployeeRecordsTest">
+        <test-method status="PASS" signature="testAdminIsAbleToLogin()[pri:0, instance:com.orangehrm.test.EmployeeRecordsTest@624a24f6]" name="testAdminIsAbleToLogin" duration-ms="10946" started-at="2017-07-09T18:37:07Z" finished-at="2017-07-09T18:37:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdminIsAbleToLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrm.test.EmployeeRecordsTest@624a24f6]" name="tearDown" is-config="true" duration-ms="98" started-at="2017-07-09T18:37:18Z" finished-at="2017-07-09T18:37:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrm.test.EmployeeRecordsTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

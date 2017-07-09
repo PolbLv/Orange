@@ -1,0 +1,236 @@
+{
+  "uid" : "eaf30bd89debfd80",
+  "name" : "testAdminIsAbleToLogin",
+  "title" : "Test admin is able to login",
+  "time" : {
+    "start" : 1499614628134,
+    "stop" : 1499614638929,
+    "duration" : 10795
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 11
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "7bc706c008e53c5e",
+    "name" : "Surefire suite : Surefire test",
+    "title" : "Surefire suite : Surefire test"
+  },
+  "steps" : [ {
+    "name" : "openLoginPage",
+    "title" : "Open Home Page by URL: http://opensource.demo.orangehrmlive.com/",
+    "time" : {
+      "start" : 1499614628188,
+      "stop" : 1499614634586,
+      "duration" : 6398
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "loginAS[User{role=ADMIN, employeeName='null', username='Admin', name='Admin', password='admin', status=ENABLED}]",
+    "title" : "Login as <User{role=ADMIN, employeeName='null', username='Admin', name='Admin', password='admin', status=ENABLED}>",
+    "time" : {
+      "start" : 1499614634589,
+      "stop" : 1499614637203,
+      "duration" : 2614
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 3
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "fillUsernameField[Admin]",
+      "title" : "Fill Username field with value <Admin>",
+      "time" : {
+        "start" : 1499614634590,
+        "stop" : 1499614634746,
+        "duration" : 156
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillPasswordField[admin]",
+      "title" : "Fill Password field with value <admin>",
+      "time" : {
+        "start" : 1499614634748,
+        "stop" : 1499614634858,
+        "duration" : 110
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "clickLoginButton",
+      "title" : "Click Login Button",
+      "time" : {
+        "start" : 1499614634860,
+        "stop" : 1499614637134,
+        "duration" : 2274
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "getCurrentUrl",
+    "title" : "Read current URL",
+    "time" : {
+      "start" : 1499614637206,
+      "stop" : 1499614637514,
+      "duration" : 308
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "URL",
+      "source" : "fa94ec7c-22ed-4ad1-9666-fcd52e746883-attachment.txt",
+      "type" : "text/plain",
+      "size" : 60,
+      "uid" : "88c6a42daab7ff0c"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "goToEmployeesRecords",
+    "title" : "Click Users in Time Module",
+    "time" : {
+      "start" : 1499614637523,
+      "stop" : 1499614638772,
+      "duration" : 1249
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "getCurrentUrl",
+    "title" : "Read current URL",
+    "time" : {
+      "start" : 1499614638774,
+      "stop" : 1499614638785,
+      "duration" : 11
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "URL",
+      "source" : "3541c5de-9e4f-4067-a9d8-1d9372a9c79e-attachment.txt",
+      "type" : "text/plain",
+      "size" : 82,
+      "uid" : "aeafb6420c972e5"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "selectName[dummy name]",
+    "title" : "Select user name",
+    "time" : {
+      "start" : 1499614638786,
+      "stop" : 1499614638837,
+      "duration" : 51
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "selectDate[2016-07-09]",
+    "title" : "Type Date",
+    "time" : {
+      "start" : 1499614638878,
+      "stop" : 1499614638889,
+      "duration" : 11
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "clickViewBtn",
+    "title" : "Click button view",
+    "time" : {
+      "start" : 1499614638890,
+      "stop" : 1499614638924,
+      "duration" : 34
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Surefire suite : Surefire test"
+  }, {
+    "name" : "thread",
+    "value" : "37674@LocalHost.main(1)"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "com.orangehrm.test.EmployeeRecordsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testAdminIsAbleToLogin"
+  }, {
+    "name" : "testSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testGroup",
+    "value" : "Surefire test"
+  }, {
+    "name" : "suite-title",
+    "value" : "Surefire suite : Surefire test"
+  }, {
+    "name" : "host",
+    "value" : "LocalHost"
+  } ],
+  "parameters" : [ ]
+}

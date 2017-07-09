@@ -1,0 +1,12 @@
+com/orangehrm/data/User.class
+com/orangehrm/app/DashboardPage.class
+com/orangehrm/tools/Browser.class
+com/orangehrm/app/LoginPage.class
+com/orangehrm/data/Status.class
+com/orangehrm/tools/AppTest.class
+com/orangehrm/app/ViewAttendanceRecordPage.class
+com/orangehrm/tools/App.class
+com/orangehrm/app/OrangeHRMPage.class
+com/orangehrm/tools/Page.class
+com/orangehrm/app/ViewSystemUsersPage.class
+com/orangehrm/data/UserRole.class

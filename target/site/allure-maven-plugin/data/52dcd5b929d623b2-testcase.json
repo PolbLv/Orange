@@ -1,0 +1,473 @@
+{
+  "uid" : "52dcd5b929d623b2",
+  "name" : "testAdminIsAbleToLogin",
+  "title" : "Test admin is able to login",
+  "time" : {
+    "start" : 1499614639037,
+    "stop" : 1499614650517,
+    "duration" : 11480
+  },
+  "summary" : {
+    "attachments" : 4,
+    "steps" : 26
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "7bc706c008e53c5e",
+    "name" : "Surefire suite : Surefire test",
+    "title" : "Surefire suite : Surefire test"
+  },
+  "steps" : [ {
+    "name" : "close",
+    "title" : "Close Browser",
+    "time" : {
+      "start" : 1499614638935,
+      "stop" : 1499614639032,
+      "duration" : 97
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "openLoginPage",
+    "title" : "Open Home Page by URL: http://opensource.demo.orangehrmlive.com/",
+    "time" : {
+      "start" : 1499614639038,
+      "stop" : 1499614641929,
+      "duration" : 2891
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "loginAS[User{role=ADMIN, employeeName='null', username='Admin', name='Admin', password='admin', status=ENABLED}]",
+    "title" : "Login as <User{role=ADMIN, employeeName='null', username='Admin', name='Admin', password='admin', status=ENABLED}>",
+    "time" : {
+      "start" : 1499614641930,
+      "stop" : 1499614644319,
+      "duration" : 2389
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 3
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "fillUsernameField[Admin]",
+      "title" : "Fill Username field with value <Admin>",
+      "time" : {
+        "start" : 1499614641931,
+        "stop" : 1499614642052,
+        "duration" : 121
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillPasswordField[admin]",
+      "title" : "Fill Password field with value <admin>",
+      "time" : {
+        "start" : 1499614642053,
+        "stop" : 1499614642138,
+        "duration" : 85
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "clickLoginButton",
+      "title" : "Click Login Button",
+      "time" : {
+        "start" : 1499614642138,
+        "stop" : 1499614643481,
+        "duration" : 1343
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "getCurrentUrl",
+    "title" : "Read current URL",
+    "time" : {
+      "start" : 1499614644322,
+      "stop" : 1499614644334,
+      "duration" : 12
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "URL",
+      "source" : "0802ca92-4dc2-4b46-a4a7-47d7618a15fc-attachment.txt",
+      "type" : "text/plain",
+      "size" : 60,
+      "uid" : "16325941934bee9b"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "goToUsersManagement",
+    "title" : "Click Users in Admin Module",
+    "time" : {
+      "start" : 1499614644335,
+      "stop" : 1499614645317,
+      "duration" : 982
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "getCurrentUrl",
+    "title" : "Read current URL",
+    "time" : {
+      "start" : 1499614645317,
+      "stop" : 1499614645327,
+      "duration" : 10
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "URL",
+      "source" : "75271f29-9a1d-4fde-af0e-5ab1d56272f1-attachment.txt",
+      "type" : "text/plain",
+      "size" : 72,
+      "uid" : "a8c6eff255d88f18"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "clickAddButton",
+    "title" : "Click Add User Button",
+    "time" : {
+      "start" : 1499614645328,
+      "stop" : 1499614645803,
+      "duration" : 475
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "createNewUser[User{role=ESS, employeeName='dummy name', username='Rigadon', name='Nicole', password='george.george', sta...]",
+    "title" : "Create New User as <User{role=ESS, employeeName='dummy name', username='Rigadon', name='Nicole', password='george.george...",
+    "time" : {
+      "start" : 1499614645804,
+      "stop" : 1499614647886,
+      "duration" : 2082
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 7
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "chooseUserRole[ESS]",
+      "title" : "Choose User Role option Admin",
+      "time" : {
+        "start" : 1499614645806,
+        "stop" : 1499614645913,
+        "duration" : 107
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillEmployeeNameFieldRandom",
+      "title" : "Fill Employee Name with value <{0}>",
+      "time" : {
+        "start" : 1499614645914,
+        "stop" : 1499614646106,
+        "duration" : 192
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillUserNameField[Rigadon]",
+      "title" : "Fill New User Name with value <Rigadon>",
+      "time" : {
+        "start" : 1499614646134,
+        "stop" : 1499614646224,
+        "duration" : 90
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "chooseNewUserStatus[Enabled]",
+      "title" : "Choose Status",
+      "time" : {
+        "start" : 1499614646224,
+        "stop" : 1499614646313,
+        "duration" : 89
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillPasswordFileld[george.george]",
+      "title" : "Fill New User Password with value <george.george>",
+      "time" : {
+        "start" : 1499614646314,
+        "stop" : 1499614646417,
+        "duration" : 103
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillConfirmPasswordField[george.george]",
+      "title" : "Fill Confirm New User Password Field with value <george.george>",
+      "time" : {
+        "start" : 1499614646418,
+        "stop" : 1499614646520,
+        "duration" : 102
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "clickSaveButton",
+      "title" : "Click Save Button",
+      "time" : {
+        "start" : 1499614646521,
+        "stop" : 1499614647886,
+        "duration" : 1365
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "checkNewUser[Rigadon]",
+    "title" : "Check if New User Created",
+    "time" : {
+      "start" : 1499614647887,
+      "stop" : 1499614648069,
+      "duration" : 182
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logOut",
+    "title" : "User LogOut",
+    "time" : {
+      "start" : 1499614648070,
+      "stop" : 1499614649207,
+      "duration" : 1137
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "getCurrentUrl",
+    "title" : "Read current URL",
+    "time" : {
+      "start" : 1499614649208,
+      "stop" : 1499614649226,
+      "duration" : 18
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "URL",
+      "source" : "194153f3-c4ad-451d-9632-dfc56fe6a0c8-attachment.txt",
+      "type" : "text/plain",
+      "size" : 61,
+      "uid" : "f2c2367fa20c230"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "loginAS[User{role=ESS, employeeName='Jasmine Morgan', username='Rigadon', name='Nicole', password='george.george', statu...]",
+    "title" : "Login as <User{role=ESS, employeeName='Jasmine Morgan', username='Rigadon', name='Nicole', password='george.george', sta...",
+    "time" : {
+      "start" : 1499614649228,
+      "stop" : 1499614650505,
+      "duration" : 1277
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 3
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "fillUsernameField[Rigadon]",
+      "title" : "Fill Username field with value <Rigadon>",
+      "time" : {
+        "start" : 1499614649235,
+        "stop" : 1499614649375,
+        "duration" : 140
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillPasswordField[george.george]",
+      "title" : "Fill Password field with value <george.george>",
+      "time" : {
+        "start" : 1499614649376,
+        "stop" : 1499614649507,
+        "duration" : 131
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "clickLoginButton",
+      "title" : "Click Login Button",
+      "time" : {
+        "start" : 1499614649508,
+        "stop" : 1499614650492,
+        "duration" : 984
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "getCurrentUrl",
+    "title" : "Read current URL",
+    "time" : {
+      "start" : 1499614650505,
+      "stop" : 1499614650516,
+      "duration" : 11
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "URL",
+      "source" : "a81841c1-a3ce-43d3-99af-598906c22144-attachment.txt",
+      "type" : "text/plain",
+      "size" : 60,
+      "uid" : "f6e247b85cdc964c"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Surefire suite : Surefire test"
+  }, {
+    "name" : "thread",
+    "value" : "37674@LocalHost.main(1)"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "com.orangehrm.test.LoginWithAdminAndCreateNewUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testAdminIsAbleToLogin"
+  }, {
+    "name" : "testSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testGroup",
+    "value" : "Surefire test"
+  }, {
+    "name" : "suite-title",
+    "value" : "Surefire suite : Surefire test"
+  }, {
+    "name" : "host",
+    "value" : "LocalHost"
+  } ],
+  "parameters" : [ ]
+}

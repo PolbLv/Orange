@@ -1,0 +1,49 @@
+{
+  "time" : {
+    "start" : 1499614628134,
+    "stop" : 1499614650517,
+    "duration" : 22383
+  },
+  "testSuites" : [ {
+    "uid" : "7bc706c008e53c5e",
+    "name" : "Surefire suite : Surefire test",
+    "title" : "Surefire suite : Surefire test",
+    "time" : {
+      "start" : 1499614628134,
+      "stop" : 1499614650517,
+      "duration" : 22383
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "eaf30bd89debfd80",
+      "name" : "testAdminIsAbleToLogin",
+      "title" : "Test admin is able to login",
+      "time" : {
+        "start" : 1499614628134,
+        "stop" : 1499614638929,
+        "duration" : 10795
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "52dcd5b929d623b2",
+      "name" : "testAdminIsAbleToLogin",
+      "title" : "Test admin is able to login",
+      "time" : {
+        "start" : 1499614639037,
+        "stop" : 1499614650517,
+        "duration" : 11480
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}
